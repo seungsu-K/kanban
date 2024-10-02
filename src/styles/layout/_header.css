@@ -1,0 +1,10 @@
+@import "@/styles/base/index.css";
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 4rem;
+  padding: 0 1rem;
+  align-items: center;
+}
