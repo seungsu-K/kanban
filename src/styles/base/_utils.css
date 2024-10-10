@@ -11,3 +11,52 @@
   white-space: nowrap;
   border-width: 0;
 }
+
+.input {
+  width: 100%;
+  height: var(--spacing-32);
+  padding: var(--spacing-4) var(--spacing-12);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--spacing-4);
+  background-color: white;
+  font-size: var(--textsize-14);
+}
+
+.button {
+  width: 100%;
+  height: var(--spacing-36);
+  padding: var(--spacing-8) var(--spacing-12);
+  border: 1px solid var(--primary);
+  border-radius: var(--spacing-8);
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: var(--textsize-14);
+}
+
+.button_delete{
+  width: var(--spacing-20);
+  height: var(--spacing-20);
+  background-image: url(/stack.svg#delete);
+  background-color: transparent;
+}
+
+.link {
+  color: var(--link);
+
+  &:hover {
+    color: var(--link);
+    text-decoration-line: underline;
+  }
+
+  &:focus {
+    color: var(--link);
+  }
+}
+
+.text_divide::before {
+  content: '';
+  width: 1px;
+  height: var(--spacing-12);
+  display: block;
+  background-color: var(--gray-600);
+}
