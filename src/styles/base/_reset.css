@@ -71,7 +71,6 @@ img {
 /* default design */
 input,
 textarea,
-button,
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -79,8 +78,20 @@ select {
   border-radius: 0;
   font-size: 16px;
   border: 0;
-  background-color: white;
+  background-color: inherit;
   font-family: var(--base-font-family);
+}
+
+button{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  font-size: 16px;
+  border: 0;
+  background-color: inherit;
+  font-family: var(--base-font-family);
+  cursor: pointer;
 }
 
 *,
