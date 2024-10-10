@@ -1,6 +1,13 @@
 :root {
   --base-font-family: "Pretendard Variable", sans-serif;
 
+  --primary: #6738ff;
+  --background: #f6f8fa;
+  --red: #e11900;
+  --black: #101115;
+  --white: #ffffff;
+  --link: #0969da;
+
   --gray-100: #e1e1e1;
   --gray-200: #c4c4c4;
   --gray-300: #a6a6a6;
@@ -9,4 +16,20 @@
   --gray-600: #a9adb1;
   --gray-700: #404040;
   --gray-800: #2b2b2b;
+
+  --spacing-4: 0.25rem;
+  --spacing-8: 0.5rem;
+  --spacing-12: 0.75rem;
+  --spacing-16: 1rem;
+  --spacing-20: 1.25rem;
+  --spacing-24: 1.5rem;
+  --spacing-28: 1.75rem;
+  --spacing-32: 2rem;
+
+  --textsize-4: 0.25rem;
+  --textsize-6: 0.3725rem;
+  --textsize-8: 0.5rem;
+  --textsize-12: 0.75rem;
+  --textsize-14: 0.875rem;
+  --textsize-16: 1rem;
 }

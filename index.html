@@ -11,7 +11,41 @@
     <script type="module" src="/main.js"></script>
   </head>
   <body>
-    <c-header></c-header>
-    <button>aaaaaaaaaaaaa</button>
+  <c-header></c-header>
+  <main>
+    <div class="login">
+      <h2 class="login_header">Kanban 시작하기</h2>
+      <form class="login_container" method="post">
+        <div class="input_container">
+          <label for="userEmail" class="input_label">이메일</label>
+          <div class="input_content">
+            <input id="userEmail" type="email" class="input" required name="userEmail" aria-invalid="false" aria-describedby="userEmailError" aria-live="assertive" />
+            <button type="button" class="button_delete button_delete_email"></button>
+          </div>
+          <span id="userEmailError" class="login_error">
+            이메일 형식에 맞게 입력해주세요
+          </span>
+        </div>
+        <div class="input_container">
+          <label for="userPassword" class="input_label">비밀번호</label>
+          <div class="input_content">
+            <input id="userPassword" type="password" class="input" required name="userPassword" aria-invalid="false" aria-describedby="userPasswordError" aria-live="assertive">
+            <button type="button" class="button_delete button_delete_password"></button>
+          </div>
+          <span id="userPasswordError" class="login_error">
+              비밀번호는 숫자와 특수문자 포함 8자리 이상 입력해주세요
+          </span>
+        </div>
+        <button type="submit" class="button" id="loginButton">
+          로그인하기
+        </button>
+      </form>
+      <div class="login_container_sub">
+          <a class="link" href="/">회원가입</a>
+          <div class="text_divide"></div>
+          <a class="link" href="/">비밀번호 찾기</a>
+      </div>
+    </div>
+  </main>
   </body>
 </html>
